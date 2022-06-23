@@ -1,9 +1,12 @@
 # -*- encoding=utf-8 -*-
 
 import time
-
-from mpool import ThreadPool
-from mtask import Task,AsyncTask
+import os
+import sys
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
+from operate_system.mpool import ThreadPool
+from operate_system.mtask import Task,AsyncTask
 
 
 

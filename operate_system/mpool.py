@@ -5,8 +5,8 @@ from time import sleep
 import psutil
 import threading
 
-from mtask import Task,AsyncTask
-from mqueue import ThreadSafeQueue
+from .mtask import Task,AsyncTask
+from .mqueue import ThreadSafeQueue
 
 
 
